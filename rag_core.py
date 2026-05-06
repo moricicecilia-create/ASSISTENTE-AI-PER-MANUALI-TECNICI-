@@ -651,7 +651,7 @@ def ask(query: str) -> Tuple[str, List[dict]]:
                 "num_predict": 250
             },
         },
-        timeout=600,
+        timeout=3600,
     )
 
     response.raise_for_status()
